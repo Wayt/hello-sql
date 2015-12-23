@@ -12,3 +12,12 @@ CREATE TABLE entries (
 ) ENGINE=InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 ```
+
+## Configuration
+
+Use environment:
+
+```
+SQL_DRIVER=mysql
+SQL_DSN=user:password@tcp(127.0.0.1:3306)/hello_sql
+```
